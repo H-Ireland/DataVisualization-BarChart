@@ -1,0 +1,51 @@
+body {
+    background: darkgray; 
+}
+
+svg {
+    box-shadow: 0px 0px 8px black;
+    background-color: navy ;
+    margin: 0px 20px 0px 50px;   
+}
+
+.top-label {
+    font-size: 32px;
+    fill: dodgerblue;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.axis-label {
+    font-size: 18px;
+    fill: dodgerblue;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#myGraph {
+    text-shadow: 2px 2px black;
+}
+
+#title {
+    color: rgb(20, 20, 26);
+    text-align: center;     
+}
+
+#tooltip {
+     background: red;  
+}
+
+.tick {    
+    color: rgb(107, 111, 114);
+    font-size:  12px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.bar { 
+    fill: cornflowerblue;
+}
+
+.bar:hover {
+    fill: pink;
+}
